@@ -39,6 +39,7 @@ footer {
 
 .content {
   padding: 100px 0px;
+  margin: 0px 50px;
   /* display: flex;
   flex-wrap: wrap; */
 }
@@ -78,8 +79,10 @@ footer {
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?cs=srgb&dl=pexels-josh-hild-2422461.jpg&fm=jpg");
-
+    url("https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?cs=srgb&fm=webp&w=1920&auto=compress");
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?cs=srgb&dl=pexels-josh-hild-2422461.jpg&fm=jpg"); */
+  
   /* Set a specific height */
   height: 50vh;
   width: 100vw;
